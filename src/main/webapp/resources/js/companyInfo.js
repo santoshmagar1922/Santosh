@@ -6,7 +6,7 @@ angular.module('companyApp').controller('companyController', function ($scope, $
 	$scope.companyList = null;
 	$scope.companyId;
 	$scope.operation = {};
-	$scope.baseURL = '/CompInfo/';
+	$scope.baseURL = '';
 	$scope.showCompanyDiv = false;
 	
 	
